@@ -1,0 +1,12 @@
+server:
+  port: 80
+  context-path: /
+spring:
+  datasource:
+    username: root
+    password: Ppp1121582840
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/mydb
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
